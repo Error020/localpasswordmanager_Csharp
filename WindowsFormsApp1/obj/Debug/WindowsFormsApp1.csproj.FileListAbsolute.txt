@@ -10,3 +10,15 @@ C:\Users\ErrorImCodingkeller\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\
 C:\Users\ErrorImCodingkeller\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\ErrorImCodingkeller\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\ErrorImCodingkeller\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\bin\Debug\password-manager.exe.config
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\bin\Debug\password-manager.exe
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\bin\Debug\password-manager.pdb
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\password-manager.exe
+C:\Users\corwi\Documents\builds\WindowsFormsApp1\obj\Debug\password-manager.pdb

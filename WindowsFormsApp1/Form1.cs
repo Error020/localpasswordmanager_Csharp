@@ -95,6 +95,8 @@ namespace WindowsFormsApp1
             groupBox2.Enabled = true;
             groupBox3.Enabled = true;
 
+            this.ActiveControl = textBox2;
+
             updatelb();
         }
 
@@ -120,6 +122,7 @@ namespace WindowsFormsApp1
 
         private void updatelb()
         {
+            removeEmptyLineAtEnd(@"c:\passwordmanager\passwords.txt");
             listBox1.Items.Clear();
             string[] lines = File.ReadAllLines(@"c:\passwordmanager\passwords.txt");
             foreach (string line in lines)
@@ -131,6 +134,7 @@ namespace WindowsFormsApp1
 
         private void searchupdate(string searched)
         {
+            removeEmptyLineAtEnd(@"c:\passwordmanager\passwords.txt");
             listBox1.Items.Clear();
             string[] lines = File.ReadAllLines(@"c:\passwordmanager\passwords.txt");
             foreach (string line in lines)
@@ -208,6 +212,7 @@ namespace WindowsFormsApp1
                 logout();
                 label2.Text = "an error occured, please log in...";
             }
+
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -354,6 +359,22 @@ namespace WindowsFormsApp1
                         File.AppendAllText(@"c:\passwordmanager\passwords.txt", "\n" + text);
                         updatelb();
 
+                    }
+                }
+            }
+        }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (!(listBox1.Items.Count == 0))
+                {
+                    listBox1.SelectedIndex = 0;
+                    if (listBox1.SelectedIndex != -1)
+                    {
+                        var password = ((ListItem)listBox1.SelectedItem).password;
+                        System.Windows.Forms.Clipboard.SetText(password);
                     }
                 }
             }

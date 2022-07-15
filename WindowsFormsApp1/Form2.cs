@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void dostuff()
         {
             if (textBox1.Text == "" || textBox2.Text == "")
             {
@@ -105,6 +105,27 @@ namespace WindowsFormsApp1
                     Application.Restart();
                     Environment.Exit(0);
                 }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dostuff();
+        }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                dostuff();
+            }
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                dostuff();
             }
         }
     }
