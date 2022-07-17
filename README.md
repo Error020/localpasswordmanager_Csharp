@@ -1,2 +1,5 @@
 # localpasswordmanager_Csharp
-I do not recommend to use it. I'm just trying stuff with C# and winforms. I'll improve it soon with cryptography and cloud support.
+I don't recommend using it. I only did it out of boredom. I will improve it with cryptography and cloud support soon.
+I think I'll redo it in WPF.... honestly I only did it in WinForms because I was in bed with my laptop and kinda wanted to do it, but 
+Visual Studio didn't perform that well with WPF on my laptop. 
+Also, I kinda like WinForms....
